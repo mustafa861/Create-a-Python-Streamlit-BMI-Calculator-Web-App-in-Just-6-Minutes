@@ -4,7 +4,7 @@ import pandas as pd
 st.title("BMI Calculator")
 
 height = st.slider("Enter your height (in cm):", 100, 250, 175)
-weight = st.slider("Enter your weight (in cm):",40, 200, 70)
+weight = st.slider("Enter your weight (in km):",40, 200, 70)
 
 bmi = weight / ((height/100)**2)
 
